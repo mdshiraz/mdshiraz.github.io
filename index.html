@@ -151,27 +151,24 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="max-w-5xl mx-auto py-16 px-6 text-center">
-    <h3 class="text-2xl font-bold mb-4">Contact</h3>
-    <p class="mb-6">Let’s connect for opportunities or collaborations.</p>
-    <div class="space-y-4">
-      <a href="mailto:mdshiraz@gmail.com" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">📧 mdshiraz@gmail.com</a><br/>
-      <a href="tel:+919818555830" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">📞 +91 98185 55830</a><br/>
-      <a href="https://linkedin.com/in/mdshiraz" target="_blank" rel="noopener" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">🔗 LinkedIn</a>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="text-center py-6 bg-white border-t mt-8">
-    <p class="text-sm text-gray-600">© 2025 Mohammad Shiraz Anwar. All rights reserved.</p>
-  </footer>
-
-  <script>
-    const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    menuBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
-  </script>
+<section id="contact" class="max-w-5xl mx-auto py-16 px-6 text-center">
+  <h3 class="text-2xl font-bold mb-4">Contact</h3>
+  <p class="mb-6">Let’s connect for opportunities or collaborations.</p>
+  <!-- Use flex-col for stacking, gap for spacing -->
+  <div class="flex flex-col items-center gap-4">
+    <a href="mailto:mdshiraz@gmail.com" 
+       class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition w-full md:w-auto text-center">
+       📧 mdshiraz@gmail.com
+    </a>
+    <a href="tel:+919818555830" 
+       class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition w-full md:w-auto text-center">
+       📞 +91 98185 55830
+    </a>
+    <a href="https://linkedin.com/in/mdshiraz" target="_blank" rel="noopener" 
+       class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition w-full md:w-auto text-center">
+       🔗 LinkedIn
+    </a>
+  </div>
+</section>
 </body>
 </html>
